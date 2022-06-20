@@ -1,4 +1,27 @@
 //A Basic Arithmetic Calculator Without a Frontend
+
+let a = 10;
+let b = 2;
+
+//Addition
+let summation = a + b;
+console.log(summation);
+
+//Subtraction
+let subtraction = a - b;
+console.log(subtraction);
+
+//Multiplication
+let multiplication = a * b;
+console.log(multiplication);
+
+//Division
+let divide = a / b;
+console.log(divide);
+
+
+//Another Example is:
+
 console.log("Select an operation to perform:");
 
 //Choices of operations to perform
@@ -35,4 +58,3 @@ if (operation == "1") {
     console.log("Enter a valid number");
     prompt("Select an operation to do", "");
 }
-
