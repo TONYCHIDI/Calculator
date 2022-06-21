@@ -1,4 +1,5 @@
 //A Basic Arithmetic Calculator Without a Frontend
+//The calculations can be fully viewed in the console using the "inspect" command
 
 let a = 10;
 let b = 2;
@@ -20,7 +21,7 @@ let divide = a / b;
 console.log(divide);
 
 
-//Another Example is:
+//Another Better Example is:
 
 console.log("Select an operation to perform:");
 
