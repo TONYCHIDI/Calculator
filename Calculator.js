@@ -4,63 +4,37 @@
 //A Basic Arithmetic Calculator Without a Frontend
 //The calculations can be fully viewed in the console using the "inspect" command
 
-let a = 10;
-let b = 2;
 
-//Addition
-let summation = a + b;
-console.log(summation);
-
-//Subtraction
-let subtraction = a - b;
-console.log(subtraction);
-
-//Multiplication
-let multiplication = a * b;
-console.log(multiplication);
-
-//Division
-let divide = a / b;
-console.log(divide);
-
-
-//Another Better Example is:
-
-console.log("Select an operation to perform:");
 
 //Choices of operations to perform
-console.log("1. Addition");
-console.log("2. Subtraction");
-console.log("3. Multiplication");
-console.log("4. Division");
+
 
 //Choose the particular operation you want to perform by number
-let operation = prompt("Select an operation to do", "");
+let operation = prompt("Select an operation to perform: '+','-','*','/'", "");
 
 //Calculations to carryout depending on your choice of operation
-if (operation == "1") {
+if (operation == "+") {
     let num1 = prompt("Enter first number here: ", "");
     let num2 = prompt("Enter second number here: ", "");
     let sum = +num1 + +num2
-    console.log("The answer is " + sum);
-} else if (operation == "2") {
+    alert("The answer is " + sum + ". Congrats!");
+} else if (operation == "-") {
     let nums1 = prompt("Enter first number here: ", "")
     let nums2 = prompt("Enter second number here: ", "")
     let subtract = +nums1 - +nums2
-    console.log("The answer is " + subtract);
-} else if (operation == "3") {
+    alert("The answer is " + subtract + ". Congrats!");
+} else if (operation == "*") {
     let num3 = prompt("Enter first number here: ", "")
     let num4 = prompt("Enter second number here: ", "")
     let multiple = +num3 * +num4
-    console.log("The answer is " + multiple);
-} else if (operation == "4") {
+    alert("The answer is " + multiple + ". Congrats!");
+} else if (operation == "/") {
     let nums3 = prompt("Enter first number here: ", "")
     let nums4 = prompt("Enter second number here: ", "")
     let division = +nums3 / +nums4
-    console.log("The answer is " + division);
-} else if (operation == null || operation == "") {
-    console.log("Enter a valid number");
-    prompt("Select an operation to do", "");
+    alert("The answer is " + division + ". Congrats!");
+} else if (operation == null || operation == "" || operation !== typeof Number) {
+    alert("Invalid operator selected. Start afresh!");
 }
 
 //The url of my github pages is https://tonychidi.github.io/Calculator/
