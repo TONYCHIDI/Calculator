@@ -1,3 +1,6 @@
+//The url of my github pages is https://tonychidi.github.io/Calculator/
+
+
 //A Basic Arithmetic Calculator Without a Frontend
 //The calculations can be fully viewed in the console using the "inspect" command
 
@@ -59,3 +62,5 @@ if (operation == "1") {
     console.log("Enter a valid number");
     prompt("Select an operation to do", "");
 }
+
+//The url of my github pages is https://tonychidi.github.io/Calculator/
