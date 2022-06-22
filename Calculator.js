@@ -1,13 +1,6 @@
 //The url of my github pages is https://tonychidi.github.io/Calculator/
 
-
 //A Basic Arithmetic Calculator Without a Frontend
-//The calculations can be fully viewed in the console using the "inspect" command
-
-
-
-//Choices of operations to perform
-
 
 //Choose the particular operation you want to perform by number
 let operation = prompt("Select an operation to perform: '+','-','*','/'", "");
@@ -35,6 +28,8 @@ if (operation == "+") {
     alert("The answer is " + division + ". Congrats!");
 } else if (operation == null || operation == "" || operation !== typeof Number) {
     alert("Invalid operator selected. Start afresh!");
+}else{
+    alert("operation terminated");
 }
 
 //The url of my github pages is https://tonychidi.github.io/Calculator/
